@@ -1,6 +1,6 @@
-﻿using Hotel.Core.Utils;
+﻿using Handicraft.Core.Utils;
 using System.ComponentModel.DataAnnotations;
-namespace Hotel.Core.Base
+namespace Handicraft.Core.Base
 {
     public  class BaseEntity
     {

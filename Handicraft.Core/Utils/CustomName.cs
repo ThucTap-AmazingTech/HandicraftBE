@@ -1,5 +1,5 @@
 ﻿
-namespace Hotel.Core.Utils
+namespace Handicraft.Core.Utils
 {
     [AttributeUsage(AttributeTargets.All)]
     public class CustomName : Attribute

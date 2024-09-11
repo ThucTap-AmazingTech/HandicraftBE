@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Handicraft.Core\Handicraft.Core.csproj" />
+  </ItemGroup>
+
 </Project>
