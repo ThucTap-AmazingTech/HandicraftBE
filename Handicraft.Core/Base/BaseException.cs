@@ -1,5 +1,5 @@
 ﻿
-
+using Handicraft.Core.Store;
 namespace Handicraft.Core.Base
 {
     public class BaseException : Exception

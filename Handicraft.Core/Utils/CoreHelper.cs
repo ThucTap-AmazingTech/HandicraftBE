@@ -1,4 +1,4 @@
-﻿namespace Hotel.Core.Utils
+﻿namespace Handicraft.Core.Utils
 {
     public class CoreHelper
     {
