@@ -14,7 +14,7 @@ namespace Handicraft.Contract.Repositories.Enities
         [JsonIgnore]
         public virtual User user_id { get; set; }
         [JsonIgnore]
-        public virtual Product product_id { get; set; }
+        public virtual ICollection<Product> product_id { get; set; }
         public int amount  { get; set; }
 
     }

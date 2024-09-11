@@ -10,11 +10,7 @@ namespace Handicraft.ViewModels.ViewModel
     public class Discount_Events_ProductsViewModel
     {
         public string id { get; private set; }
-
-        [JsonIgnore]
         public virtual Discount_EventsViewModel? Discount_EventsInfo { get; set; } = new Discount_EventsViewModel();
-
-        [JsonIgnore]
         public virtual ProductsViewModel? ProductInfo { get; set; } = new ProductsViewModel ();
     }
 }

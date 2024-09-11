@@ -9,8 +9,8 @@ namespace Handicraft.ViewModels.ViewModel
     public class CartsViewModel
     {
         public string Id { get; private set; }       
-        public UsersViewModel UserId { get; set; }  =  new UsersViewModel();
-        public ProductsViewModel ProductId { get; set; } = new ProductsViewModel();
+        public UsersViewModel UserInfo { get; set; }  =  new UsersViewModel();
+        public List<ProductsViewModel> ListProduct { get; set; } = new List<ProductsViewModel>();
         public int Amount { get; set; }
     }
 }
