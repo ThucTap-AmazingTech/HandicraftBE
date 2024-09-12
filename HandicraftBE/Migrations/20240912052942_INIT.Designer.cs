@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HandicraftBE.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20240912040209_Init")]
-    partial class Init
+    [Migration("20240912052942_INIT")]
+    partial class INIT
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
