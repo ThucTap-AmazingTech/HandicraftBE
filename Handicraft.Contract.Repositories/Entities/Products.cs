@@ -6,7 +6,7 @@ using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using static System.Net.Mime.MediaTypeNames;
 
-namespace Handicraft.Repositories.Entities
+namespace Handicraft.Contract.Repositories.Entities
 {
     public class Products
     {     
