@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Handicraft.Core.Base;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,9 +7,9 @@ using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using static System.Net.Mime.MediaTypeNames;
 
-namespace Handicraft.Repositories.Entities
+namespace Handicraft.Contract.Repositories.Entities
 {
-    public class Products
+    public class Product : BaseEntity
     {     
         public string? Name { get; set; }
         public string? Size { get; set; }
@@ -18,8 +19,8 @@ namespace Handicraft.Repositories.Entities
         public decimal Discount { get; set; }
         public string? CategoryId { get; set; }
         [JsonIgnore]
-        public virtual Categories? Category { get; set; }
+        public virtual Category? Category { get; set; }
         [JsonIgnore]
-        public virtual ICollection<Images>? Images { get; }
+        public virtual ICollection<Image>? Images { get; }
     }
 }

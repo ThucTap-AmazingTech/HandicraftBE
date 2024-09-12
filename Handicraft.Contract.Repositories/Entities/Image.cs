@@ -1,15 +1,16 @@
-﻿using System;
+﻿using Handicraft.Core.Base;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Handicraft.Repositories.Entities
+namespace Handicraft.Contract.Repositories.Entities
 {
-    public class Images
+    public class Image : BaseEntity
     {
         public string? ProductId { get; set; }
         public string? FileName { get; set; }
-        public Products? Product { get; set; }
+        public virtual Product? Product { get; set; }
     }
 }
