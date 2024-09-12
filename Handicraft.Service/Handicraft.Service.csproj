@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Handicraft.Contract.Service\Handicraft.Contract.Service.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Handicraft.ViewModels
+namespace Handicraft.ViewModels.ViewModels
 {
-    internal class ProductsViewModel
+    public class ProductsViewModel
     {
         public string Id { get; set; } = null!;
         public string CreatedBy { get; set; } = null!;
